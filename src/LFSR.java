@@ -33,15 +33,15 @@ public class LFSR {
 
         /**************OPENING THE DATA FILES*****************/
 
-        if (ifp == null) {
-            System.out.println("\n Unable to open input file.\n");
-            System.exit(0);
-        }
+//        if (ifp == null) {
+//            System.out.println("\n Unable to open input file.\n");
+//            System.exit(0);
+//        }
 
         /*****************READING THE INPUT FILE******************/
 
         String line = ifp.readLine();
-        no_lfsr = Integer.parseInt(line);
+        //no_lfsr = Integer.parseInt(line);
         l1 = Integer.parseInt(ifp.readLine());
 
         init_st1 = new int[l1];
