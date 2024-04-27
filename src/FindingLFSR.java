@@ -36,7 +36,7 @@ public class FindingLFSR {
             int i, j, k = 0, t, x1, x2, x3, f;
             int cnt1 = 0, cnt2 = 0, cnt3 = 0;
             char ch;
-            int st, st1, st3;
+          //  int st, st1, st3;
             int[] z;
             init_st1 = new int[l1];
             deriv_st1 = new int[l1];
